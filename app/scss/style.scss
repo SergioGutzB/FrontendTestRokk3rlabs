@@ -1,7 +1,6 @@
 @import '../../node_modules/font-awesome/scss/font-awesome.scss';
 @import 'source/_variables.scss';
 @import 'source/_mixins.scss';
-$fa-font-path: "../../../node_modules/font-awesome/fonts" !global;
 @media only screen and (min-width:1px) {
   body {
     margin: 0px;
@@ -90,69 +89,6 @@ $fa-font-path: "../../../node_modules/font-awesome/fonts" !global;
       font-stretch: normal;
       line-height: 1.36;
       color: #ffffff;
-    }
-    .cont {
-      position: relative;
-      .content {
-        background-color: $blue-grey;
-      }
-      .new {
-        .card {
-          margin: 5px 5px;
-          border-radius: 6px;
-          background-color: #ffffff;
-          border: solid 1px $border;
-        }
-        .date {
-          margin: 15px;
-          span {
-            font-size: 11px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.45;
-            text-align: right;
-            color: $grey-400;
-            float: right;
-          }
-          h5 {
-            font-size: 12px;
-            font-weight: 600;
-            font-style: normal;
-            font-stretch: normal;
-            color: $blue;
-            display: inline-table;
-            margin: 0px;
-          }
-        }
-        .title p {
-          margin: 15px;
-          font-size: 16px;
-          font-weight: normal;
-          font-style: normal;
-          font-stretch: normal;
-          line-height: 1.25;
-          text-align: left;
-          color: $blue-grey-700;
-        }
-        .info {
-          img {
-            width: 100%;
-            height: auto;
-          }
-          article {
-            margin: 15px;
-            p {
-              font-size: 14px;
-              font-weight: normal;
-              font-style: normal;
-              font-stretch: normal;
-              text-align: left;
-              color: $grey-600;
-            }
-          }
-        }
-      }
     }
   }
 }
