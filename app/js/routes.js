@@ -5,7 +5,7 @@ angular
 function appConfig($routeProvider, $locationProvider, CONFIG) {
   $routeProvider
     .when('/', {
-      templateUrl: CONFIG.TEMPLATE_DIR + 'index.html',
+      templateUrl: CONFIG.TEMPLATE_DIR + 'news.html',
       controller: 'News',
       controllerAs: "vm"
     })

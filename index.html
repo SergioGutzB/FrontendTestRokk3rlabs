@@ -5,16 +5,52 @@
   <title>Rokk3rlabs</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.min.css" type="text/css">
   <link href="app/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body ng-app="Rokk3rlabs">
+
+  <div ng-controller="Index as vm">
+    <div class="header">
+      <div class="logo">
+        <img src="app/images/r-3-l-logo-application-02.png" class="R3L_Logo_Application_02">
+      </div>
+      <div class="menu1">
+      </div>
+    </div>
+    <div class="container">
+      <div class="menu" id="Sidenav">
+        <ul class="Text-Style">
+          <li class="navigate" ng-show="vm.openMenu"><span>Navigate</span></li>
+          <li>
+            <div><img src="app/images/analitycs.png"></div><span ng-show="vm.openMenu">Analytics</span></li>
+          <li>
+            <div><img src="app/images/newspaper-o.png"></div><span ng-show="vm.openMenu">News</span></li>
+          <li>
+            <div><img src="app/images/board-brief.png"></div><span ng-show="vm.openMenu">Board Brief</span></li>
+          <li>
+            <div><img src="app/images/briefcase.png"></div><span ng-show="vm.openMenu">Briefcase</span></li>
+          <li ng-click="vm.toggleMenu()">
+            <div><img src="app/images/angle-double-left.png"></div><span ng-show="vm.openMenu">Close menu</span></li>
+        </ul>
+      </div>
+      <div class="content" id="main">
+        <div ng-view>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <script src="node_modules/angular/angular.min.js"></script>
   <script src="node_modules/angular-route/angular-route.min.js"></script>
 
   <script src="app/js/app.js"></script>
   <script src="app/js/routes.js"></script>
+
+  <script src="app/js/build/controllers.js"></script>
 </body>
 
 </html>

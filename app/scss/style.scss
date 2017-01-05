@@ -1,3 +1,160 @@
-* {
-  box-sizing: border-box;
+@import 'source/_variables.scss';
+@import 'source/_mixins.scss';
+@media only screen and (min-width:1px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    .header {
+      height: 61px;
+      background-color: $grey-800;
+      color: #fff;
+      .logo {
+        width: 264px;
+        height: 60px;
+        background-color: $grey-900;
+        text-align: center;
+      }
+      .R3L_Logo_Application_02 {
+        width: 169px;
+        height: 20px;
+        object-fit: contain;
+        padding-top: 16px;
+      }
+      .menu1 {
+        float: right;
+        text-align: right;
+      }
+    }
+    .menu {
+      width: 264px;
+      background-color: $grey-800;
+      height: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 60;
+      left: 0;
+      overflow-x: hidden;
+      transition: 0.5s;
+      ul {
+        padding-left: 0px;
+        li {
+          list-style: none;
+          color: #fff;
+          font-size: 16px;
+          cursor: pointer;
+          transition: 0.2s;
+          padding-left: 24px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          div {
+            width: 28px;
+            display: inline-flex;
+          }
+        }
+        li:hover {
+          background-color: #1e2025;
+          transition: 0.2s;
+        }
+      }
+      &.close {
+        width: 40px;
+        ul li {
+          padding-left: 12px;
+        }
+      }
+    }
+    #main {
+      margin-left: 264px;
+      transition: margin-left .5s;
+      padding: 40px;
+    }
+    .Text-Style {
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      text-align: left;
+      color: #ffffff;
+    }
+    .Text-Style-2 {
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.36;
+      color: #ffffff;
+    }
+    .container.content {
+      background-color: #F5F5FA;
+    }
+    .new {
+      .card {
+        margin: 5px 5px;
+        border-radius: 6px;
+        background-color: #ffffff;
+        border: solid 1px #e7e7ed;
+      }
+      .date {
+        margin: 15px;
+        span {
+          font-size: 11px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.45;
+          text-align: right;
+          color: #b9b9b9;
+          float: right;
+        }
+        h5 {
+          font-size: 12px;
+          font-weight: 600;
+          font-style: normal;
+          font-stretch: normal;
+          color: #5c9df5;
+          display: inline-table;
+          margin: 0px;
+        }
+      }
+      .title p {
+        margin: 15px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        text-align: left;
+        color: #3c454c;
+      }
+      .content {
+        img {
+          width: 100%;
+          height: auto;
+        }
+        article {
+          margin: 15px;
+          p {
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            text-align: left;
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 960px) and(max-width: 1279px) {
+  body {}
+}
+
+@media (min-width: 600px) and(max-width: 959px) {
+  body {}
+}
+
+@media (max-width: 599px) {
+  body {}
 }
