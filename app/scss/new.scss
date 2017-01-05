@@ -63,6 +63,18 @@
             }
           }
         }
+        .footer {
+          border-top: 1px solid $blue-grey;
+          padding-top: 12px;
+          padding-bottom: 10px;
+          i {
+            color: $blue-grey-200;
+            cursor: pointer;
+            &span {
+              font-size: 12px;
+            }
+          }
+        }
       }
     }
   }
