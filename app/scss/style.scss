@@ -5,6 +5,7 @@
   body {
     margin: 0px;
     padding: 0px;
+    font-family: 'ProximaNova';
     .header {
       height: 61px;
       background-color: $blue-grey-800;
@@ -51,6 +52,7 @@
           padding-left: 24px;
           padding-top: 15px;
           padding-bottom: 15px;
+          font-family: 'ProximaNova';
           div {
             width: 28px;
             display: inline-flex;

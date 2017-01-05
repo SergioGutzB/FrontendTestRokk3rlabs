@@ -1,3 +1,4 @@
+@import '_mixins.scss';
 $grey-300: #d8d8d8;
 $grey-400: #b9b9b9;
 $grey-600: #666666;
@@ -11,3 +12,10 @@ $blue-grey-700: #3c454c;
 $blue-grey-800: #2f323a;
 $blue: #5c9df5;
 $border: #e7e7ed;
+@include font-face("ProximaNova", /app/fonts/ProximaNova-Light);
+// @font-face {
+//   font-family: 'ProximaNova';
+//   src: url('../../app/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), url('../../app/fonts/ProximaNova-Light.otf') format('opentype'), url('../../app/fonts/ProximaNova-Light.woff') format('woff'), url('../../app/fonts/ProximaNova-Light.ttf') format('truetype'), url('../../app/fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }

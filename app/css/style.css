@@ -1,5 +1,6 @@
-@charset "UTF-8";@media only screen and (min-width:1px){body .cont{position:relative}
-body .cont .content{background-color:#f5f5fa}body .cont .new{padding:8px}body .cont .new .card{margin:5px 5px;border-radius:6px;background-color:#fff;border:solid 1px #e7e7ed}
+@charset "UTF-8";@font-face{font-family:"ProximaNova";src:url("/app/fonts/ProximaNova-Light.eot?") format("eot"),url("/app/fonts/ProximaNova-Light.woff2") format("woff2"),url("/app/fonts/ProximaNova-Light.woff") format("woff"),url("/app/fonts/ProximaNova-Light.ttf") format("truetype"),url("/app/fonts/ProximaNova-Light.svg#ProximaNova") format("svg")}
+@media only screen and (min-width:1px){body .cont{position:relative}body .cont .content{background-color:#f5f5fa}
+body .cont .new{padding:8px}body .cont .new .card{margin:5px 5px;border-radius:6px;background-color:#fff;border:solid 1px #e7e7ed}
 body .cont .new .date{margin:15px}body .cont .new .date span{font-size:11px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.45;text-align:right;color:#b9b9b9;float:right}
 body .cont .new .date h5{font-size:12px;font-weight:600;font-style:normal;font-stretch:normal;color:#5c9df5;display:inline-table;margin:0}
 body .cont .new .title p{margin:15px;font-size:16px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.25;text-align:left;color:#3c454c}
@@ -385,11 +386,13 @@ body .cont .new .footer i{color:#c0c8d1;cursor:pointer}body .cont .new .footer i
 .fa-superpowers:before{content:""}.fa-wpexplorer:before{content:""}
 .fa-meetup:before{content:""}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
-@media only screen and (min-width:1px){body{margin:0;padding:0}body .header{height:61px;background-color:#2f323a;color:#fff;position:fixed;top:0;width:100%;z-index:1010}
+@font-face{font-family:"ProximaNova";src:url("/app/fonts/ProximaNova-Light.eot?") format("eot"),url("/app/fonts/ProximaNova-Light.woff2") format("woff2"),url("/app/fonts/ProximaNova-Light.woff") format("woff"),url("/app/fonts/ProximaNova-Light.ttf") format("truetype"),url("/app/fonts/ProximaNova-Light.svg#ProximaNova") format("svg")}
+@media only screen and (min-width:1px){body{margin:0;padding:0;font-family:'ProximaNova'}
+body .header{height:61px;background-color:#2f323a;color:#fff;position:fixed;top:0;width:100%;z-index:1010}
 body .header .logo{width:264px;height:60px;background-color:#1e2025;text-align:center}
 body .header .R3L_Logo_Application_02{width:169px;height:20px;object-fit:contain;padding-top:16px}
 body .header .menu1{float:right;text-align:right}body .menu{width:264px;background-color:#2f323a;height:100%;position:fixed;z-index:1;top:60;left:0;overflow-x:hidden;transition:.5s}
-body .menu ul{padding-left:0}body .menu ul li{list-style:none;color:#fff;font-size:16px;cursor:pointer;transition:.2s;padding-left:24px;padding-top:15px;padding-bottom:15px}
+body .menu ul{padding-left:0}body .menu ul li{list-style:none;color:#fff;font-size:16px;cursor:pointer;transition:.2s;padding-left:24px;padding-top:15px;padding-bottom:15px;font-family:'ProximaNova'}
 body .menu ul li div{width:28px;display:inline-flex}body .menu ul li:hover{background-color:#1e2025;transition:.2s}
 body .menu.close{width:40px}body .menu.close ul li{padding-left:12px}body #main{margin-left:264px;transition:margin-left .5s;padding:40px;margin-top:60px}
 body .Text-Style{font-size:16px;font-weight:600;font-style:normal;font-stretch:normal;text-align:left;color:#fff}
