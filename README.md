@@ -7,3 +7,4 @@ Aplicación creada en Angular 1.6
  `npm-install`
 * Ejecutar servidor serve.
  `serve`
+ * Visualización en el `http://127.0.0.1:3000/`
