@@ -1,0 +1,1 @@
+function newsController(){}var app=angular.module("Rokk3rlabs");app.controller("News",newsController),newsController.$inject=[];

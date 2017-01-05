@@ -1,0 +1,33 @@
+{
+  "name": "rokk3rlabs",
+  "version": "1.0.0",
+  "description": "This is the official Rokk3rlabs frontend test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioGutzB/FrontendTestRokk3rlabs.git"
+  },
+  "author": "Sergio Gutiérrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioGutzB/FrontendTestRokk3rlabs/issues"
+  },
+  "homepage": "https://github.com/SergioGutzB/FrontendTestRokk3rlabs#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "chart.js": "^2.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "serve": "^2.1.2"
+  }
+}
