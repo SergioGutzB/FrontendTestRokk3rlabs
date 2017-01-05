@@ -1,16 +1,19 @@
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
 @import 'source/_variables.scss';
 @import 'source/_mixins.scss';
+$fa-font-path: "../../../node_modules/font-awesome/fonts" !global;
 @media only screen and (min-width:1px) {
   body {
     margin: 0px;
     padding: 0px;
     .header {
       height: 61px;
-      background-color: $grey-800;
+      background-color: $blue-grey-800;
       color: #fff;
       position: fixed;
       top: 0px;
       width: 100%;
+      z-index: 1010;
       .logo {
         width: 264px;
         height: 60px;
@@ -30,7 +33,7 @@
     }
     .menu {
       width: 264px;
-      background-color: $grey-800;
+      background-color: $blue-grey-800;
       height: 100%;
       position: fixed;
       z-index: 1;
@@ -55,7 +58,7 @@
           }
         }
         li:hover {
-          background-color: #1e2025;
+          background-color: $grey-900;
           transition: 0.2s;
         }
       }
@@ -91,14 +94,14 @@
     .cont {
       position: relative;
       .content {
-        background-color: #F5F5FA;
+        background-color: $blue-grey;
       }
       .new {
         .card {
           margin: 5px 5px;
           border-radius: 6px;
           background-color: #ffffff;
-          border: solid 1px #e7e7ed;
+          border: solid 1px $border;
         }
         .date {
           margin: 15px;
@@ -109,7 +112,7 @@
             font-stretch: normal;
             line-height: 1.45;
             text-align: right;
-            color: #b9b9b9;
+            color: $grey-400;
             float: right;
           }
           h5 {
@@ -117,7 +120,7 @@
             font-weight: 600;
             font-style: normal;
             font-stretch: normal;
-            color: #5c9df5;
+            color: $blue;
             display: inline-table;
             margin: 0px;
           }
@@ -130,7 +133,7 @@
           font-stretch: normal;
           line-height: 1.25;
           text-align: left;
-          color: #3c454c;
+          color: $blue-grey-700;
         }
         .info {
           img {
@@ -145,7 +148,7 @@
               font-style: normal;
               font-stretch: normal;
               text-align: left;
-              color: #666666;
+              color: $grey-600;
             }
           }
         }
