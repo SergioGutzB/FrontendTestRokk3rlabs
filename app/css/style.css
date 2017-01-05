@@ -1,13 +1,13 @@
-@media only screen and (min-width:1px){body{margin:0;padding:0}body .header{height:61px;background-color:#2f323a;color:#fff}
+@media only screen and (min-width:1px){body{margin:0;padding:0}body .header{height:61px;background-color:#2f323a;color:#fff;position:fixed;top:0;width:100%}
 body .header .logo{width:264px;height:60px;background-color:#1e2025;text-align:center}
 body .header .R3L_Logo_Application_02{width:169px;height:20px;object-fit:contain;padding-top:16px}
 body .header .menu1{float:right;text-align:right}body .menu{width:264px;background-color:#2f323a;height:100%;position:fixed;z-index:1;top:60;left:0;overflow-x:hidden;transition:.5s}
 body .menu ul{padding-left:0}body .menu ul li{list-style:none;color:#fff;font-size:16px;cursor:pointer;transition:.2s;padding-left:24px;padding-top:15px;padding-bottom:15px}
 body .menu ul li div{width:28px;display:inline-flex}body .menu ul li:hover{background-color:#1e2025;transition:.2s}
-body .menu.close{width:40px}body .menu.close ul li{padding-left:12px}body #main{margin-left:264px;transition:margin-left .5s;padding:40px}
+body .menu.close{width:40px}body .menu.close ul li{padding-left:12px}body #main{margin-left:264px;transition:margin-left .5s;padding:40px;margin-top:60px}
 body .Text-Style{font-size:16px;font-weight:600;font-style:normal;font-stretch:normal;text-align:left;color:#fff}
 body .Text-Style-2{font-size:14px;font-weight:600;font-style:normal;font-stretch:normal;line-height:1.36;color:#fff}
-body .cont.content{background-color:#f5f5fa}body .new .card{margin:5px 5px;border-radius:6px;background-color:#fff;border:solid 1px #e7e7ed}
+body .cont{position:relative}body .cont.content{background-color:#f5f5fa}body .new .card{margin:5px 5px;border-radius:6px;background-color:#fff;border:solid 1px #e7e7ed}
 body .new .date{margin:15px}body .new .date span{font-size:11px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.45;text-align:right;color:#b9b9b9;float:right}
 body .new .date h5{font-size:12px;font-weight:600;font-style:normal;font-stretch:normal;color:#5c9df5;display:inline-table;margin:0}
 body .new .title p{margin:15px;font-size:16px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.25;text-align:left;color:#3c454c}
