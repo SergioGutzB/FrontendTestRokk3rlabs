@@ -62,6 +62,9 @@
           background-color: $grey-900;
           transition: 0.2s;
         }
+        li.close {
+          margin-top: 100px;
+        }
       }
       &.close {
         width: 40px;

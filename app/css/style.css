@@ -1,4 +1,14 @@
-@charset "UTF-8";/* *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */@font-face{font-family:'FontAwesome';src:url("../fonts/fontawesome-webfont.eot?v=4.7.0");src:url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");font-weight:normal;font-style:normal}
+@charset "UTF-8";@font-face{font-family:"ProximaNova";src:url("/app/fonts/ProximaNova-Light.eot?") format("eot"),url("/app/fonts/ProximaNova-Light.woff2") format("woff2"),url("/app/fonts/ProximaNova-Light.woff") format("woff"),url("/app/fonts/ProximaNova-Light.ttf") format("truetype"),url("/app/fonts/ProximaNova-Light.svg#ProximaNova") format("svg")}
+@media only screen and (min-width:1px){body .cont{position:relative}body .cont .content{background-color:#f5f5fa}
+body .cont .new{padding:8px}body .cont .new .card{margin:5px 5px;border-radius:6px;background-color:#fff;border:solid 1px #e7e7ed}
+body .cont .new .date{margin:15px}body .cont .new .date span{font-size:11px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.45;text-align:right;color:#b9b9b9;float:right}
+body .cont .new .date h5{font-size:12px;font-weight:600;font-style:normal;font-stretch:normal;color:#5c9df5;display:inline-table;margin:0}
+body .cont .new .title p{margin:15px;font-size:16px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.25;text-align:left;color:#3c454c}
+body .cont .new .info img{width:100%;height:auto}body .cont .new .info article{margin:15px;margin-bottom:40px}
+body .cont .new .info article p{font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;text-align:left;color:#666}
+body .cont .new .footer{border-top:1px solid #f5f5fa;padding-top:12px;padding-bottom:10px}
+body .cont .new .footer i{color:#c0c8d1;cursor:pointer}body .cont .new .footer ispan{font-size:12px}
+}/* *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */@font-face{font-family:'FontAwesome';src:url("../fonts/fontawesome-webfont.eot?v=4.7.0");src:url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");font-weight:normal;font-style:normal}
 .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-15%}.fa-2x{font-size:2em}
 .fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-fw{width:1.28571em;text-align:center}
@@ -384,17 +394,8 @@ body .header .R3L_Logo_Application_02{width:169px;height:20px;object-fit:contain
 body .header .menu1{float:right;text-align:right}body .menu{width:264px;background-color:#2f323a;height:100%;position:fixed;z-index:1;top:60;left:0;overflow-x:hidden;transition:.5s}
 body .menu ul{padding-left:0}body .menu ul li{list-style:none;color:#fff;font-size:16px;cursor:pointer;transition:.2s;padding-left:24px;padding-top:15px;padding-bottom:15px;font-family:'ProximaNova'}
 body .menu ul li div{width:28px;display:inline-flex}body .menu ul li:hover{background-color:#1e2025;transition:.2s}
-body .menu.close{width:40px}body .menu.close ul li{padding-left:12px}body #main{margin-left:264px;transition:margin-left .5s;padding:20px;margin-top:60px}
+body .menu ul li.close{margin-top:100px}body .menu.close{width:40px}body .menu.close ul li{padding-left:12px}
+body #main{margin-left:264px;transition:margin-left .5s;padding:20px;margin-top:60px}
 body .Text-Style{font-size:16px;font-weight:600;font-style:normal;font-stretch:normal;text-align:left;color:#fff}
 body .Text-Style-2{font-size:14px;font-weight:600;font-style:normal;font-stretch:normal;line-height:1.36;color:#fff}
-}@font-face{font-family:"ProximaNova";src:url("/app/fonts/ProximaNova-Light.eot?") format("eot"),url("/app/fonts/ProximaNova-Light.woff2") format("woff2"),url("/app/fonts/ProximaNova-Light.woff") format("woff"),url("/app/fonts/ProximaNova-Light.ttf") format("truetype"),url("/app/fonts/ProximaNova-Light.svg#ProximaNova") format("svg")}
-@media only screen and (min-width:1px){body .cont{position:relative}body .cont .content{background-color:#f5f5fa}
-body .cont .new{padding:8px}body .cont .new .card{margin:5px 5px;border-radius:6px;background-color:#fff;border:solid 1px #e7e7ed}
-body .cont .new .date{margin:15px}body .cont .new .date span{font-size:11px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.45;text-align:right;color:#b9b9b9;float:right}
-body .cont .new .date h5{font-size:12px;font-weight:600;font-style:normal;font-stretch:normal;color:#5c9df5;display:inline-table;margin:0}
-body .cont .new .title p{margin:15px;font-size:16px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:1.25;text-align:left;color:#3c454c}
-body .cont .new .info img{width:100%;height:auto}body .cont .new .info article{margin:15px;margin-bottom:40px}
-body .cont .new .info article p{font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;text-align:left;color:#666}
-body .cont .new .footer{border-top:1px solid #f5f5fa;padding-top:12px;padding-bottom:10px}
-body .cont .new .footer i{color:#c0c8d1;cursor:pointer}body .cont .new .footer ispan{font-size:12px}
 }
